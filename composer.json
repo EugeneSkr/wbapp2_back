@@ -1,0 +1,22 @@
+{
+    "name": "eugeneskr/wbapp2",
+    "description": "wbapp2",
+    "authors": [
+        {
+            "name": "Eugene Skr",
+            "email": "zhenk0@yandex.ru"
+        }
+    ],
+    "require": {
+        "firebase/php-jwt": "^6.0",
+        "pecee/simple-router": "4.3.7.2",
+        "phpmailer/phpmailer": "^5.2",
+        "setasign/tfpdf": "1.32",
+        "spatie/data-transfer-object": "2.8.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "App\\": "app/"
+        }
+    }
+}
